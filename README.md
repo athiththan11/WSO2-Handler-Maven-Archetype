@@ -1,4 +1,4 @@
-# WSO2-Handler-Maven-Archetype <!-- omit in toc -->
+# WSO2 Handler Maven Archetype <!-- omit in toc -->
 
 Maven Archetype for WSO2 Handlers. Use the following maven archetype to generate maven projects to implement WSO2 related handlers for WSO2 API Manager and WSO2 EI Services.
 
