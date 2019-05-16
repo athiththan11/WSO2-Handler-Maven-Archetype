@@ -9,7 +9,7 @@
 	<version>1.0.0</version>
 	<packaging>maven-archetype</packaging>
 
-	<name>Archetype - custom-handler</name>
+	<name>Archetype - wso2-handlers</name>
 	<url>https://github.com/athiththan11/WSO2-Handler-Maven-Archetype</url>
 
 	<properties>
