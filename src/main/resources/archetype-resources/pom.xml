@@ -9,7 +9,7 @@
 	<version>${version}</version>
 
 	<!-- change the packaging to bundle (from jar) to support OSGi -->
-	<packaging>jar</packaging>
+	<packaging>bundle</packaging>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,19 +30,6 @@
 			<artifactId>synapse-commons</artifactId>
 			<version>2.1.7-wso2v10</version>
 			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.wso2.carbon.apimgt</groupId>
-			<artifactId>org.wso2.carbon.apimgt.gateway</artifactId>
-			<version>6.1.66</version>
-			<scope>provided</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.11</version>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
@@ -141,8 +128,8 @@
 				<extensions>true</extensions>
 				<configuration>
 					<instructions>
-						<Bundle-SymbolicName>${groupId}</Bundle-SymbolicName>
-						<Bundle-Name>${groupId}</Bundle-Name>
+						<Bundle-SymbolicName>${artifactId}</Bundle-SymbolicName>
+						<Bundle-Name>${artifactId}</Bundle-Name>
 						<Export-Package>
                             ${groupId}.*,
 						</Export-Package>
